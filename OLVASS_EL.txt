@@ -1,0 +1,22 @@
+MENTA KÁVÉZÓ – HELYBEN MEGNYITHATÓ WEBOLDAL
+================================================
+
+INDÍTÁS:
+1. Csomagold ki a ZIP fájlt.
+2. Kattints duplán az INDITAS.bat fájlra.
+   Vagy nyisd meg közvetlenül az index.html fájlt a böngészőben.
+
+OLDALAK:
+- Főoldal
+- Rólunk
+- Kínálat
+- Galéria
+- Kapcsolat
+- Asztalfoglalás
+
+FONTOS:
+- A weboldal internet és GitHub nélkül is megnyitható.
+- Az Asztalfoglalás oldal a foglalásokat csak azon a böngészőn tárolja,
+  amelyben megnyitottad az oldalt (localStorage).
+- A Kapcsolat űrlap bemutató jellegű, nem küld valódi e-mailt.
+- Minden kép, CSS és JavaScript a mappában van, ezért a weboldal önállóan működik.

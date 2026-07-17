@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Menta Kávézó – friss ízek, finom kávé és kellemes hangulat.">
+  <title>Asztalfoglalás | Menta Kávézó</title>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="foglalas">
+<a class="skip-link" href="#tartalom">Ugrás a tartalomra</a>
+
+<header class="site-header">
+  <div class="container navbar">
+    <a class="brand" href="index.html" aria-label="Menta Kávézó főoldal">
+      <img src="assets/img/logo.webp" alt="Menta Kávézó logó">
+      <span class="brand-text">Menta Kávézó<small>EGY CSÉSZE ÖRÖM</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Menü megnyitása" aria-expanded="false">☰</button>
+    <nav aria-label="Fő navigáció">
+      <ul class="nav-links">
+        <li><a data-nav="fooldal" href="index.html">Főoldal</a></li>
+        <li><a data-nav="rolunk" href="rolunk.html">Rólunk</a></li>
+        <li><a data-nav="kinalat" href="kinalat.html">Kínálat</a></li>
+        <li><a data-nav="galeria" href="galeria.html">Galéria</a></li>
+        <li><a data-nav="kapcsolat" href="kapcsolat.html">Kapcsolat</a></li>
+        <li><a data-nav="foglalas" class="nav-cta" href="foglalas.html">Asztalfoglalás</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="tartalom">
+<section class="page-hero"><div class="container"><div class="breadcrumbs"><a href="index.html">Főoldal</a><span>›</span><span>Asztalfoglalás</span></div><h1>Asztalfoglalás</h1><p>Rögzítsd a foglalási kérésedet néhány lépésben. A bemutató verzió az adatokat csak a saját böngésződben tárolja.</p></div></section>
+<section class="section"><div class="container contact-grid"><form id="bookingForm" class="form-card reveal" novalidate><h2>Foglalási adatok</h2><div class="form-grid"><div class="field"><label for="name">Név *</label><input id="name" name="name" autocomplete="name" required></div><div class="field"><label for="phone">Telefon *</label><input id="phone" name="phone" type="tel" autocomplete="tel" required></div><div class="field full"><label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email"></div><div class="field"><label for="date">Dátum *</label><input id="date" name="date" type="date" required></div><div class="field"><label for="time">Időpont *</label><select id="time" name="time" required><option value="">Válassz időpontot</option><option>08:00</option><option>09:30</option><option>11:00</option><option>12:30</option><option>14:00</option><option>15:30</option><option>17:00</option><option>18:30</option></select></div><div class="field"><label for="guests">Létszám *</label><select id="guests" name="guests" required><option value="">Válassz létszámot</option><option value="1">1 fő</option><option value="2">2 fő</option><option value="3">3 fő</option><option value="4">4 fő</option><option value="5">5 fő</option><option value="6">6 fő</option><option value="7">7 fő</option><option value="8">8 fő</option></select></div><div class="field"><label for="seating">Elhelyezés</label><select id="seating" name="seating"><option value="Nincs külön kérés">Nincs külön kérés</option><option value="Ablak melletti asztal">Ablak melletti asztal</option><option value="Csendesebb sarok">Csendesebb sarok</option><option value="Terasz">Terasz</option></select></div><div class="field full"><label for="note">Megjegyzés</label><textarea id="note" name="note" placeholder="Etetőszék, allergia, születésnap vagy más kérés..."></textarea></div><div class="field full"><button class="btn btn-primary" type="submit">Foglalási kérés rögzítése</button></div></div><p class="form-note">A csillaggal jelölt mezők kötelezők. Az adatok nem kerülnek internetre.</p><div id="bookingError" class="error-message"></div><div id="bookingSuccess" class="success-message"><div id="reservationSummary" class="reservation-summary"></div><button id="downloadConfirmation" class="btn btn-outline download-btn" type="button">Visszaigazolás letöltése</button></div></form><aside class="contact-card reveal"><h2>Foglalási tudnivalók</h2><ul class="check-list"><li>Nyitvatartási időn belüli időpontok választhatók.</li><li>8 fő felett telefonos egyeztetést javaslunk.</li><li>A különleges kéréseket írd a megjegyzés mezőbe.</li><li>A bemutató oldal a foglalásokat helyben, a böngészőben menti.</li></ul><img src="assets/img/menta-latte.webp" alt="Menta latte" style="border-radius:20px;margin-top:20px"></aside></div><div class="container booking-list reveal"><h2>Saját, ezen a gépen mentett foglalásaim</h2><div id="savedBookings"></div></div></section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <h3>Menta Kávézó</h3>
+      <p>Egy csésze öröm, minden nap. Friss ízek, gondosan készített kávék és kellemes hangulat.</p>
+    </div>
+    <div><h3>Oldalak</h3><ul class="footer-links"><li><a href="rolunk.html">Rólunk</a></li><li><a href="kinalat.html">Kínálat</a></li><li><a href="galeria.html">Galéria</a></li></ul></div>
+    <div><h3>Kapcsolat</h3><ul class="footer-links"><li><a href="tel:+36301234567">+36 30 123 4567</a></li><li><a href="mailto:hello@mentakavezo.hu">hello@mentakavezo.hu</a></li><li>1111 Budapest, Menta utca 5.</li></ul></div>
+    <div><h3>Nyitvatartás</h3><ul class="footer-links"><li>H–P: 7:00–20:00</li><li>Szombat: 8:00–21:00</li><li>Vasárnap: 8:00–18:00</li></ul></div>
+  </div>
+  <div class="container footer-bottom"><span>© <span data-year></span> Menta Kávézó</span><span>Bemutató, helyben megnyitható weboldal</span></div>
+</footer>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/foglalas.js"></script>
+</body>
+</html>
